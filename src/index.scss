@@ -1,0 +1,43 @@
+/* Title */
+.main-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.sub-title {
+  font-family: "Arial", Gadget, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* Layout */
+.main-container {
+  padding-bottom: 20px;
+}
+
+/* Form */
+.form {
+  border-radius: 5px;
+  background-color: #C0C0C0;
+  padding: 25px;
+
+  .input {
+    border-radius: 5px;
+  }
+}
+
+/* List */
+.list {
+  margin-bottom: 20px;
+
+  .row {
+    &:nth-child(even) {
+      background: #CCC;
+    }
+
+    &:nth-child(odd) {
+      background: #FFF;
+    } 
+  }
+}
